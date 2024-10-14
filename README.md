@@ -1,27 +1,36 @@
-# AWS IoT Device SDK for JavaScript v2
+# 🌐 **AWS IoT Device SDK for JavaScript v2** 
 
-This document provides information about the AWS IoT device SDK for Javascript V2. This SDK is built on the [AWS Common Runtime](https://docs.aws.amazon.com/sdkref/latest/guide/common-runtime.html)
+This repository provides everything you need to start using the **AWS IoT Device SDK for JavaScript V2**. Built on the robust [AWS Common Runtime](https://docs.aws.amazon.com/sdkref/latest/guide/common-runtime.html), this SDK makes IoT development easy and efficient.
 
-*__Jump To:__*
-* [Installation](#installation)
-* [Samples](https://github.com/aws/aws-iot-device-sdk-js-v2/tree/main/samples)
-* [Mac-Only TLS Behavior](#mac-only-tls-behavior)
-* [Getting Help](#getting-help)
-* [FAQ](https://github.com/aws/aws-iot-device-sdk-js-v2/blob/main/documents/FAQ.md)
-* [API Docs](https://aws.github.io/aws-iot-device-sdk-js-v2/)
-* [MQTT5 User Guide](https://github.com/awslabs/aws-crt-nodejs/blob/main/MQTT5-UserGuide.md)
-* [Migration Guide from the AWS IoT SDK for JavaScript v1](./documents/MIGRATION_GUIDE.md)
+---
 
-## Installation
+## 🔗 **Quick Links**
+* 🚀 [Installation](#installation)
+* 💡 [Samples](https://github.com/aws/aws-iot-device-sdk-js-v2/tree/main/samples)
+* 🍎 [Mac-Only TLS Behavior](#mac-only-tls-behavior)
+* 🆘 [Getting Help](#getting-help)
+* ❓ [FAQ](https://github.com/aws/aws-iot-device-sdk-js-v2/blob/main/documents/FAQ.md)
+* 📚 [API Docs](https://aws.github.io/aws-iot-device-sdk-js-v2/)
+* 📖 [MQTT5 User Guide](https://github.com/awslabs/aws-crt-nodejs/blob/main/MQTT5-UserGuide.md)
+* 🔄 [Migration Guide from SDK v1](./documents/MIGRATION_GUIDE.md)
 
-### Minimum Requirements
+---
 
-For use with Node, the following are required:
-* Node v14+
-  * Run `node -v` to check Node version.
-* CMake 3.1+
+## ⚙️ **Installation**
 
-[Step-by-step instructions](https://github.com/aws/aws-iot-device-sdk-js-v2/blob/main/documents/PREREQUISITES.md)
+### 📋 **Minimum Requirements**
+- **Node.js**: v14+ (Check your version with `node -v`)
+- **CMake**: 3.1+ (For building the SDK)
+
+👉 [Step-by-step setup guide](https://github.com/aws/aws-iot-device-sdk-js-v2/blob/main/documents/PREREQUISITES.md)
+
+### 📥 **Add SDK to Your Project with NPM**
+```sh
+# Navigate to your JavaScript project directory.
+cd <your-javascript-project>
+
+# Install the AWS IoT Device SDK v2.
+npm install aws-iot-device-sdk-v2
 
 ### Build SDK in existing project with NPM
 ``` sh
